@@ -1,6 +1,6 @@
 document.getElementById("signupBtn").addEventListener("click", async ()=>{
-    const email = document.getElementById("email").Value;
-    const pwd = document.getElementById("pwd").Value;
+    const email = document.getElementById("email").value;
+    const pwd = document.getElementById("pwd").value;
     const nickname = document.getElementById("nickname").Value;
 
     const data = {email, pwd, nickname};
