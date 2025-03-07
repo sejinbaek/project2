@@ -14,5 +14,5 @@ window.onload = async () => {
             </div>
         </div>`;
     });
-    document.getElementById("productList").innerHTML = productListDiv;
-}
+    document.getElementById("productListDiv").innerHTML = productListDiv;
+};
